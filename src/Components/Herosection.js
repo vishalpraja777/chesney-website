@@ -1,4 +1,5 @@
 import React from "react";
+import Mainsection from "./Mainsection";
 
 const Herosection = () => {
   return (
@@ -69,6 +70,7 @@ const Herosection = () => {
           </div> */}
         </div>
       </section>
+      <Mainsection/>
     </div>
   );
 };

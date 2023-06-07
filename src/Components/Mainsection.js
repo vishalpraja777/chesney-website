@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Mainsection = () => {
   return (
@@ -202,9 +203,10 @@ const Mainsection = () => {
                       >
                         <i class="bx bx-plus"></i>
                       </a>
-                      <a href="portfolio-details.html" title="More Details">
+                      <Link to='/productdetails'><i class="bx bx-link"></i></Link>
+                      {/* <a href="portfolio-details.html" title="More Details">
                         <i class="bx bx-link"></i>
-                      </a>
+                      </a> */}
                     </div>
                   </div>
                 </div>
