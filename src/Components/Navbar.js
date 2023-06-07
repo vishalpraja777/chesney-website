@@ -7,7 +7,7 @@ const Navbar = () => {
         <div class="container d-flex align-items-center justify-content-lg-between">
           <h1 class="logo me-auto me-lg-0">
             <a href="index.html">
-              Gp<span>.</span>
+              <img src="assets/img/Chesney Logo footer.jpg" alt="logo"></img>
             </a>
           </h1>
           <nav id="navbar" class="navbar order-last order-lg-0">
@@ -22,14 +22,15 @@ const Navbar = () => {
                   About
                 </a>
               </li>
+
               <li>
-                <a class="nav-link scrollto" href="#services">
-                  Services
+                <a class="nav-link scrollto " href="#portfolio">
+                  Product
                 </a>
               </li>
               <li>
-                <a class="nav-link scrollto " href="#portfolio">
-                  Portfolio
+                <a class="nav-link scrollto" href="#services">
+                  Services
                 </a>
               </li>
               <li>
@@ -37,12 +38,12 @@ const Navbar = () => {
                   Team
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a class="nav-link scrollto" href="#team">
                   Team2
                 </a>
-              </li>
-              <li class="dropdown">
+              </li> */}
+              {/* <li class="dropdown">
                 <a href="#">
                   <span>Drop Down</span> <i class="bi bi-chevron-down"></i>
                 </a>
@@ -83,7 +84,7 @@ const Navbar = () => {
                     <a href="#">Drop Down 4</a>
                   </li>
                 </ul>
-              </li>
+              </li> */}
               <li>
                 <a class="nav-link scrollto" href="#contact">
                   Contact
@@ -92,10 +93,10 @@ const Navbar = () => {
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
           </nav>
-          .navbar
-          <a href="#about" class="get-started-btn scrollto">
+
+          {/* <a href="#about" class="get-started-btn scrollto">
             Get Started
-          </a>
+          </a> */}
         </div>
       </header>
     </div>
