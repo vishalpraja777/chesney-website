@@ -11,3 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.Mission {
+  text-align: justify;
+  text-justify: inter-word;
+
+}
